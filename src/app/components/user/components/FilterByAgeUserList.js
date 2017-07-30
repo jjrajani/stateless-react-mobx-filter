@@ -1,6 +1,5 @@
 import React from 'react';
 import UserList from './UserList';
-import './byAgeUserList.css';
 import { observer } from 'mobx-react';
 
 const FilterByAgeUserList = ({users, age}) => {
