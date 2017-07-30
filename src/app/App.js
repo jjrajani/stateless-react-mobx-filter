@@ -4,14 +4,16 @@ import { observable } from 'mobx';
 
 import './App.scss';
 
-import USERS from './components/user/utils/users';
+import SERVER from '../server/server';
+
+// import USERS from '../server/users';
 import Filter from './components/filter/filter';
 import FilterByAgeUserList from './components/user/components/FilterByAgeUserList';
 
 let users = observable([]);
 let getUsers = function() {
   setTimeout(() => {
-    USERS.forEach(u => {
+    SERVER.getUsers().forEach(u => {
       users.push(u);
     })
   }, 300);

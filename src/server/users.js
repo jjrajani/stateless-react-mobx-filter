@@ -1,6 +1,6 @@
 import createUser from './createUser';
 
-let USERS = [
+const USERS = [
   createUser({
     name:'Jenna',
     password: 'humdrum',
@@ -10,7 +10,7 @@ let USERS = [
   createUser({
     name:'Donika',
     password: 'duhneekah',
-    email: 'duhneekay@duh.neekay',
+    email: 'duhneekah@duh.neekah',
     dob: new Date('10/25/1984'),
   }),
   createUser({
