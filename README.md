@@ -1,12 +1,12 @@
-## Stateless React Components with Mobx and Mobx-React
+#### Stateless React Components with Mobx and Mobx-React
 
-## Installing
-`git clone https://github.com/jjrajani/stateless-react-mobx-filter.git`
-`cd classless`
-`yarn install`
-`yarn start`
+### Installing
+  `git clone https://github.com/jjrajani/stateless-react-mobx-filter.git`
+  `cd classless`
+  `yarn install`
+  `yarn start`
 
-## Folder Structure
+### Folder Structure
 
 After creation, your project should look like this:
 
