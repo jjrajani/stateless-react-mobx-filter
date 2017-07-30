@@ -1,5 +1,7 @@
 #### Stateless React Components with Mobx and Mobx-React
 
+[Demo](http://stateless-react-mobx-filter.surge.sh/)
+
 ### Installing
   `git clone https://github.com/jjrajani/stateless-react-mobx-filter.git`
 
