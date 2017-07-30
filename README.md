@@ -2,9 +2,13 @@
 
 ### Installing
   `git clone https://github.com/jjrajani/stateless-react-mobx-filter.git`
+
   `cd classless`
+
   `yarn install`
+
   `yarn start`
+
 
 ### Folder Structure
 
