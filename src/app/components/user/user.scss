@@ -1,0 +1,40 @@
+@import "../../../styles/colors";
+
+$item_border_color: $light_terra_cotta;
+$active_item_border_color: $dark_terra_cotta;
+$item_background_color: $light_cadet_blue;
+$icon_color: $terra_cotta;
+$actie_icon_color: $dark_terra_cotta;
+
+.user {
+  position: relative;
+  border: solid $item_border_color 2px;
+  margin: 20px 0;
+  padding: 0 2vw;
+  background-color: $item_background_color;
+  &.active {
+    border: solid $active_item_border_color 2px;
+  }
+  h3 {
+    font-size: 1rem;
+    .value {
+      font-weight: 400;
+    }
+  }
+  input {
+    padding: 5px 1vw;
+    border-radius: 4px;
+    border: solid 1px $active_item_border_color;
+  }
+
+  i {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    color: $icon_color;
+    cursor: pointer;
+    &.active {
+      color: red;
+    }
+  }
+}

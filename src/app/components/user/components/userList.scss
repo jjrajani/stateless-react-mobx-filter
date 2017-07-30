@@ -1,0 +1,10 @@
+@import "../../../../styles/colors";
+
+$list_border_color: $terra_cotta;
+$list_background_color: lighten($cadet_blue, 20%);
+.user_list {
+  margin: 20px 5vw 0;
+  padding: 0 2vw;
+  border: solid $list_border_color 3px;
+  background-color: $list_background_color;
+}

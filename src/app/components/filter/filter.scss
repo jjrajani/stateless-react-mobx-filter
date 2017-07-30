@@ -1,0 +1,46 @@
+@import '../../../styles/colors.scss';
+
+$filter_background: $cambridge_blue;
+
+$label_color: $terra_cotta;
+
+$button_text: $platinum;
+$button_color: $cadet_blue;
+// $button_border_color: $cadet_blue;
+
+$input_border_color: $cambridge_blue;
+
+.filter {
+  background-color: $filter_background;
+  label {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  h1 { color: $label_color; }
+  p span {
+    color: $label_color;
+  }
+  .form {
+    text-align: center;
+    padding: 0 0 30px 0;
+    input {
+      width: 40px;
+      margin: 0 2vw 0 0;
+      padding: 8px 1vw;
+      text-align: right;
+      outline: none;
+      font-size: 0.8rem;
+      border-radius: 4px;
+      border: solid $input_border_color 1px;
+    }
+    button {
+      padding: 10px 2vw;
+      border: none;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      background-color: $button_color;
+      color: $button_text;
+    }
+  }
+}
