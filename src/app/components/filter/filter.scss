@@ -12,6 +12,7 @@ $input_border_color: $cambridge_blue;
 
 .filter {
   background-color: $filter_background;
+  border-bottom: solid 2px $dark_cambridge_blue;
   label {
     display: flex;
     flex-direction: column;

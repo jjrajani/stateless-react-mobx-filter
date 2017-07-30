@@ -1,0 +1,26 @@
+@import '../../../styles/colors';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2.5vw 20px;
+  background-color: $dark_cambridge_blue;
+  border-bottom: solid 2px $terra_cotta;
+  h1, a, i { color: $platinum; }
+  h1 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  a {
+    width: 33.3333%;
+  }
+  :nth-child(2) {
+    text-align: center;
+    i { font-size: 2rem; }
+  }
+  :nth-child(3) {
+    text-align: right;
+  }
+}
