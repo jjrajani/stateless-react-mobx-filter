@@ -13,7 +13,7 @@ let toggleEditMode = (i) => {
 }
 
 const UserList = ({users, title}) => {
-  return(
+  return users.length ? (
     <div className='user_list'>
       <h1>{title}</h1>
       {users.map((u, i) => {
@@ -27,7 +27,7 @@ const UserList = ({users, title}) => {
         )
       })}
     </div>
-  );
+  ): null;
 }
 
 export default observer(UserList);
