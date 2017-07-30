@@ -1,0 +1,24 @@
+@import '../../../styles/colors';
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0 0;
+  padding: 20px 2.5vw 20px;
+  background-color: $cambridge_blue;
+  p, a {
+    width: 33.3333%;
+    color: $terra_cotta;
+  }
+  :nth-child(2) {
+    text-align: center;
+    i {
+      font-size: 2rem;
+      color: $terra_cotta;
+    }
+  }
+  :nth-child(3) {
+    text-align: right;
+  }
+}
